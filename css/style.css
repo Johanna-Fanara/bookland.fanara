@@ -389,7 +389,11 @@ footer .redes {
         margin-top: 20px; }
     header .navBar {
       font-size: 20px;
-      gap: 15px; }
+      gap: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
       header .navBar .subrayado {
         text-decoration-thickness: 2px; }
       header .navBar .carrito {
@@ -428,19 +432,24 @@ footer .redes {
       font-size: 20px; }
   /* NOSOTROS CELULAR*/
   .grids {
-    height: 700px;
+    height: 600px;
+    gap: 1rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "item1" "item3" "item2" "item5" "item4"; }
     .grids .item1 {
-      font-size: 20px;
-      height: 80px; }
+      font-size: 15px;
+      height: 70px; }
     .grids .item2, .grids .item5 {
-      font-size: 20px;
+      font-size: 15px;
       color: #21700e;
       font-weight: bolder; }
+    .grids .item3, .grids .item4 {
+      font-size: 15px; }
+    .grids .item4 {
+      font-size: 15px; }
     .grids .item5 {
-      font-size: 20px;
+      font-size: 15px;
       color: #21700e;
       font-weight: bolder; }
   /* CONTACTO CELULAR*/
@@ -456,7 +465,7 @@ footer .redes {
     .card-datos .label-mail {
       margin-top: 10px;
       font-size: 20px;
-      margin-left: 150px; }
+      margin-left: 100px; }
     .card-datos .label-msj {
       margin-top: 15px;
       font-size: 25px; }
@@ -478,7 +487,7 @@ footer .redes {
       height: 40px; }
   /* FOOTER DE CELULAR*/
   footer p {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 25px; }
   footer .redes .redes-img {
     width: 25px;
